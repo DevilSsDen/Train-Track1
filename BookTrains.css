@@ -1,0 +1,142 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./images/Screenshot\ 2024-11-29\ 162324.png'); /* Replace with your desired background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    padding: 10px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hd {
+    font-size: 36px;
+    font-weight: bold;
+    color: #cc0066;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation menu */
+.home {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(114, 118, 139, 0.33);
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu a {
+    color: blue;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+/* Tab styles */
+.tab {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #ffe5cc;
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+/* Main content block */
+.main {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffcc;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Form styles */
+form {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #cc0066;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #99004d;
+}
+
+/* Link styles */
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Footer alignment (if needed later) */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}

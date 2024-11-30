@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Train Track</title>
+<link rel="stylesheet" href="BookTrains.css">
+<style>
+</style>
+</head>
+<body>
+	<header>
+		<h1 class="hd"></h1>
+		<div class="home">
+			<p class="menu">
+				<a href="AdminHome.html">Home</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="ViewTrains.html">View Trains</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="AdminSearchTrain.html">Search By TrainNo</a>
+			</p>
+		</div>
+
+		<div class="home">
+			<p class="menu">
+				<a href="AddTrain.html">Add Train</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="CancelTrain.html">Delete Train </a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="AdminUpdateTrain.html">Update Train Details</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="adminlogout">Logout</a>
+			</p>
+		</div>
+	</header>
+
+	<div class='tab'>
+		<p class='menu'> Hey, Admin ! Welcome to our new NITRTC Website
+		</p>
+	</div>
+	
+	<div class="main">
+		<p class="menu">Book trains</p>
+	</div>
+	<div class="tab">
+		<p class="menu red">
+			Please Check The <a href='Availability.html'>Seat availability</a>
+			before Booking !
+		</p>
+	</div>
+	<form action="booktrains" class="tab red" method="post">
+		TrainNumber: <input type="text" name="trainnumber"><br /> <br />
+		No of seats: <input type='text' name='seats'><br /> <br /> <input
+			type="submit" value=" Book Now "><br />
+	</form>
+	<br />
+
+</body>
+</html>
